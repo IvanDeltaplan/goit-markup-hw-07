@@ -51,12 +51,12 @@ li {
   text-decoration: none;
 }
 
-.logo-clients-icon, .input-check-box, .check-text span, .check-text, .card-soc-link-foot, .subscribe-button, .advantage__box, .card-soc-link, .filter-text, .button-email, .modal-btn, .navigation, .header__container {
+.logo-clients-icon, .input-check-box, .check-text span, .check-text, .card-soc-link-foot, .subscribe-button, .advantage__box, .card-soc-link, .filter-text, .button-email, .modal-btn, .navigation, .headercontainer {
   display: flex;
   align-items: center;
 }
 
-.header {
+.headercontainer {
   border-bottom: 1px solid #ececec;
 }
 
@@ -70,7 +70,7 @@ li {
   gap: 8px;
 }
 
-.menu__list {
+.menulist {
   display: flex;
   gap: 50px;
 }
@@ -350,7 +350,7 @@ body {
 }
 
 section {
-  padding: 94px 0;
+  padding-top: 94px;
 }
 
 .card-container {
@@ -761,7 +761,7 @@ section {
   display: block;
 }
 
-.aboutus__text {
+.about__text {
   position: absolute;
   bottom: 0;
   color: white;
@@ -997,6 +997,7 @@ section {
   display: block;
   /* outline: #18a0fb solid 2px; */
   justify-content: center;
+  padding-bottom: 94px;
 }
 
 .logo-clients-list {

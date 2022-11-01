@@ -1,11 +1,9 @@
-.header__container {
+.headercontainer {
     @extend %aligner-centr;
-
+border-bottom: 1px solid #ececec;
 
 }
-.header {
-    border-bottom: 1px solid #ececec;
-}
+
 .navigation {
     @extend %aligner-centr;
     margin-left: 93px;
@@ -17,7 +15,7 @@
     gap: 8px;
 }
 
-.menu__list {
+.menulist {
     display: flex;
     gap: 50px;
 }
