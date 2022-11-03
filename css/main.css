@@ -351,6 +351,11 @@ body {
 
 section {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-padding-top {
+  padding-top: 0;
 }
 
 .card-container {
@@ -997,7 +1002,6 @@ section {
   display: block;
   /* outline: #18a0fb solid 2px; */
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 .logo-clients-list {
